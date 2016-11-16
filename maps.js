@@ -44,3 +44,8 @@ $(document).ready(function() {
     });
 });
 
+
+$(document).ready(function() {
+    $('.clickable-map').hide();
+    $('.map-metadata').hide();
+});

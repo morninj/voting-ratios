@@ -38,3 +38,18 @@ function selectState(map, name) {
     updateRatio();
 }
 
+
+$(document).ready(function() {
+    $('.show-maps').click(function() {
+        $('.clickable-map').slideDown();
+        $('.map-metadata').slideDown();
+        $(this).hide();
+        $('.hide-maps').show();
+    });
+    $('.hide-maps').click(function() {
+        $('.clickable-map').slideUp();
+        $('.map-metadata').slideUp();
+        $(this).hide();
+        $('.show-maps').show();
+    });
+});
