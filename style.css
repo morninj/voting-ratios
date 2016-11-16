@@ -13,9 +13,14 @@ h1 {
     h1 span { display: none; }
 
 h2 {
+    color: #ccc !important;
     font-size: 54px !important;
     margin-top: 40px !important;
 }
+
+    h2 span {
+        color: #333;
+    }
 
 h4 {
     color: #777 !important;
