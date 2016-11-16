@@ -1,0 +1,65 @@
+body {
+    font-family: 'Roboto Condensed', sans-serif !important;
+    color: #333;
+}
+
+h1 {
+    background: url('citizensfirst.png');
+    height: 84px;
+    margin: 0 auto !important;
+    width: 324px;
+}
+
+    h1 span { display: none; }
+
+.main-row {
+    font-size: 2em;
+    margin-top: 50px;
+    text-align: center;
+}
+
+    .main-row div {
+    }
+
+    .main-row select {
+        background: #eee;
+        border: none;
+        border-bottom: 3px dashed #ccc;
+        font-size: 1.3em;
+        padding: 15px;
+    }
+
+.vote-ratio {
+    font-size: 3em;
+    font-weight: bold;
+}
+
+.clickable-map {
+    margin: 50px 0 0 0;
+}
+
+.metadata-entry {
+}
+
+.map-metadata {
+    margin-bottom: 50px;
+}
+
+.map-metadata hr {
+    width: 50%;
+}
+
+.metadata-value {
+    font-size: 0.6em;
+    font-weight: bold;
+}
+
+.metadata-label {
+    color: #999;
+    font-size: 0.5em;
+}
+
+.main-footer {
+    color: #999;
+    font-size: 0.5em;
+}
