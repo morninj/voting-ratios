@@ -44,8 +44,14 @@ $(document).ready(function() {
     });
 });
 
-
+// Hide maps if we're on mobile
 $(document).ready(function() {
-    $('.clickable-map').hide();
-    $('.map-metadata').hide();
+    if ($(window).width() < 768) {
+        $('.clickable-map').hide();
+        $('.map-metadata').hide();
+        $('.show-maps').show();
+        $('.hide-maps').hide();
+        $('.vote-display-column').css('margin-top', '30px');
+        $('.vote-display-column').css('margin-bottom', '30px');
+    }
 });
