@@ -64,7 +64,7 @@ $(document).ready(function() {
 
     // Show embed code
     $('.show-embed-code').click(function() {
-        $('.embed-code').slideDown();
+        $('.embed-code').slideToggle();
     });
 
 });
