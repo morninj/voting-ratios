@@ -50,6 +50,7 @@ $(document).ready(function() {
     $('.hide-maps').click(function() {
         $('.clickable-map').slideUp();
         $('.map-metadata').slideUp();
+        $('.constitutional-blurb').slideUp();
         $(this).hide();
         $('.show-maps').show();
     });

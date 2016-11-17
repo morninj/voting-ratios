@@ -49,9 +49,14 @@ $(document).ready(function() {
     if ($(window).width() < 768) {
         $('.clickable-map').hide();
         $('.map-metadata').hide();
+        $('.constitutional-blurb').slideUp();
         $('.show-maps').show();
         $('.hide-maps').hide();
         $('.vote-display-column').css('margin-top', '30px');
         $('.vote-display-column').css('margin-bottom', '30px');
+    }
+    if ($(window).width() >= 768) {
+        $('.constitutional-blurb').css('margin', '415px -90px 0 -90px');
+        $('.constitutional-blurb').css('font-size', '0.8em');
     }
 });
