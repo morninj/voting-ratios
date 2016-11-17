@@ -9,7 +9,7 @@ $('#map1').usmap({
         'DC': {fill: '#fff', stroke: '#fff'},
     }
 });
-selectState('map1', 'MN');
+selectState('map1', 'WY');
 
 $(document).ready(function() {
     $('#map1').on('usmapclick', function(event, data) {
@@ -32,7 +32,7 @@ $('#map2').usmap({
         'DC': {fill: '#fff', stroke: '#fff'},
     }
 });
-selectState('map2', 'MI');
+selectState('map2', 'OH');
 
 $(document).ready(function() {
     $('#map2').on('usmapclick', function(event, data) {
