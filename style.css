@@ -79,3 +79,7 @@ h4 {
     font-size: 0.8em;
     margin-bottom: 100px;
 }
+
+.embed-show {
+    display: none;
+}

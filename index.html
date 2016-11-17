@@ -26,14 +26,14 @@
 
 
     <div class="container-fluid">
-        <div class="main-row row">
-            <div class="col-md-12">
+        <div class="main-row row embed-hide">
+            <div class="col-sm-12">
                 <h2>The <span>principle</span>:<br>One Person, One Vote.</h2>
                 <h2>The <span>reality</span>:</h2>
             </div>
         </div>
         <div class="main-row row">
-            <div class="col-md-5">
+            <div class="col-sm-5">
                 <p style="margin-top: 15px;">
                     One person from
                 </p>
@@ -91,8 +91,8 @@
                         <option value="WY" selected>Wyoming</option>
                     </select>
                 </p>
-                <div id="map1" class="clickable-map" style="width: 100%; height: 400px;"></div>
-                <div class="map1-metadata map-metadata">
+                <div id="map1" class="clickable-map embed-hide" style="width: 100%; height: 400px;"></div>
+                <div class="map1-metadata map-metadata embed-hide">
                     <div class="metadata-entry">
                         <div class="metadata-value electoral-votes">
                             3
@@ -131,7 +131,7 @@
                 </div>
             </div>
 
-            <div class="col-md-2 vote-display-column">
+            <div class="col-sm-2 vote-display-column">
                 <p>
                     gets
                 </p>
@@ -144,7 +144,7 @@
                 </p>
             </div>
 
-            <div class="col-md-5">
+            <div class="col-sm-5">
                 <p style="margin-top: 15px;">
                     for every one from
                 </p>
@@ -202,8 +202,8 @@
                         <option value="WY">Wyoming</option>
                     </select>
                 </p>
-                <div id="map2" class="clickable-map" style="width: 100%; height: 400px;"></div>
-                <div class="map2-metadata map-metadata">
+                <div id="map2" class="clickable-map embed-hide" style="width: 100%; height: 400px;"></div>
+                <div class="map2-metadata map-metadata embed-hide">
                     <div class="metadata-entry">
                         <div class="metadata-value electoral-votes">
                             0
@@ -244,8 +244,10 @@
         </form>
         </div>
         <div class="main-row row">
-            <div class="col-md-12 main-footer">
-                <p>
+            <div class="col-sm-12 main-footer">
+                <p class="embed-hide">
+                    <a href="javascript:void(0);" class="show-embed-code">Embed</a>
+                    &nbsp; &middot; &nbsp;
                     <a href="javascript:void(0);" class="show-maps" style="display: none;">Show maps and data</a>
                     <a href="javascript:void(0);" class="hide-maps">Hide maps and data</a>
                     &nbsp; &middot; &nbsp;
@@ -253,9 +255,17 @@
                     &nbsp; &middot; &nbsp;
                     <a href="https://github.com/morninj/voting-ratios">Contribute on GitHub</a>
                 </p>
-                <p style="margin-top: 50px;">A project of</p>
-                <p>
-                    <a href="https://medium.com/equal-citizens" style="display: block;"><img src="citizensfirst.png"></a>
+                <p class="embed-code" style="display: none;">
+                    <textarea style="width: 600px; height: 100px; font-size: 0.8em; margin-top: 30px; font-family: 'Courier', monospace; color: #555;">&#x3C;iframe src=&#x22;http://votes.equalcitizens.us/?embed=true&#x22; width=&#x22;960&#x22; height=&#x22;355&#x22; frameborder=&#x22;0&#x22; style=&#x22;border: 1px solid #ccc;&#x22;&#x3E;&#x3C;/iframe&#x3E;</textarea>
+                </p>
+                <p class="embed-show" style="font-size: 0.7em;">
+                    A project of <a href="http://www.equalcitizens.us/">EqualCitizens.US</a>
+                    &nbsp; &middot; &nbsp;
+                    <a href="http://votes.equalcitizens.us/">See details</a>
+                </p>
+                <p style="margin-top: 50px;" class="embed-hide">A project of</p>
+                <p class="embed-hide">
+                    <a href="http://www.equalcitizens.us/" style="display: block;"><img src="citizensfirst.png"></a>
                 </p>
             </div>
         </div>

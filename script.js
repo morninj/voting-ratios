@@ -40,6 +40,7 @@ function selectState(map, name) {
 
 
 $(document).ready(function() {
+    // Show/hide maps on click
     $('.show-maps').click(function() {
         $('.clickable-map').slideDown();
         $('.map-metadata').slideDown();
@@ -52,4 +53,29 @@ $(document).ready(function() {
         $(this).hide();
         $('.show-maps').show();
     });
+
+    // Hide/show certain elements if the widget is embedded
+    // and apply some style changes
+    if (getParameterByName('embed') == 'true') {
+        $('.embed-hide').hide();
+        $('.embed-show').show();
+        $('.main-footer').css('margin-bottom', '0');
+    }
+
+    // Show embed code
+    $('.show-embed-code').click(function() {
+        $('.embed-code').slideDown();
+    });
+
 });
+//
+// Get query string parameters
+function getParameterByName(name, url) {
+    if (!url) { url = window.location.href; }
+    name = name.replace(/[\[\]]/g, "\\$&");
+    var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+        results = regex.exec(url);
+    if (!results) return null;
+    if (!results[2]) return '';
+    return decodeURIComponent(results[2].replace(/\+/g, " "));
+}
