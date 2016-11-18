@@ -1,6 +1,13 @@
 body {
     font-family: 'Source Sans Pro', sans-serif !important;
+    background-color: rgba(255, 255, 255, 0.5);
+    background: url(http://d3n8a8pro7vhmx.cloudfront.net/citizenequality/sites/1/header_images/original/libertybg2.jpg?1450210494) no-repeat center 0 fixed; 
+    background-size: cover;
     color: #333;
+}
+
+.container-fluid {
+    background: rgba(255,255,255,0.9);
 }
 
 h1 {

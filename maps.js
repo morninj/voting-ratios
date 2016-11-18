@@ -1,5 +1,5 @@
 $('#map1').usmap({
-    stateStyles: {fill: '#efefef', stroke: '#ccc'},
+    stateStyles: {fill: '#efefef', stroke: '#aaa'},
     stateHoverStyles: {fill: '#3d9943'},
     stateHoverAnimation: 150,
     stateSpecificLabelBackingStyles: {
@@ -22,7 +22,7 @@ $(document).ready(function() {
 });
 
 $('#map2').usmap({
-    stateStyles: {fill: '#efefef', stroke: '#ccc'},
+    stateStyles: {fill: '#efefef', stroke: '#aaa'},
     stateHoverStyles: {fill: '#3d9943'},
     stateHoverAnimation: 150,
     stateSpecificLabelBackingStyles: {
