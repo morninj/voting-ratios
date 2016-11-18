@@ -19,8 +19,13 @@ h1 {
 
     h1 span { display: none; }
 
+
+a {
+color: #054175;
+}
+
 h2 {
-    color: #ccc !important;
+    color: #054175 !important;
     font-size: 54px !important;
     margin-top: 40px !important;
 }
@@ -51,9 +56,17 @@ h4 {
         padding: 15px;
     }
 
+.vote-display-column p {
+}
+
 .vote-ratio {
     font-size: 3em;
     font-weight: bold;
+    background: #054175;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 10px;
+    margin-left: -10px;
 }
 
 .clickable-map {
