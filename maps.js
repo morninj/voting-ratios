@@ -56,7 +56,7 @@ $(document).ready(function() {
         $('.vote-display-column').css('margin-bottom', '30px');
     }
     if ($(window).width() >= 768) {
-        $('.constitutional-blurb').css('margin', '415px -90px 0 -90px');
-        $('.constitutional-blurb').css('font-size', '0.8em');
+        $('.constitutional-blurb').css('margin', '415px -100px 0 -100px');
+        $('.constitutional-blurb').css('font-size', '0.75em');
     }
 });
